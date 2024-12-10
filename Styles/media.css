@@ -1,0 +1,60 @@
+@media (max-width: 1400px){
+    .blog-items{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+
+        .clients-items{
+            flex-direction: column;
+            row-gap: 30px;
+        }
+        .clients-item{
+            position: static;
+            padding: 40px;
+        }
+        .clients-item img{
+            position: static;
+            margin-right: 20px;
+        }
+
+
+
+        .about{
+            flex-direction: column;
+            row-gap: 30px;
+        }
+
+        .twenty20{
+            flex-direction: column;
+            row-gap: 30px;
+        }
+
+        .main{
+            flex-direction: column;
+            row-gap: 30px;
+        }
+
+        .works{
+            flex-direction: column;
+            row-gap: 30px;
+        }
+
+        .footer-items .footer-logo{
+            flex-direction: column;
+            row-gap: 30px;
+        }
+    }
+
+
+    @media (max-width: 1200px){
+        .about-top{
+            flex-direction: column;
+        }
+        .about-bottom{
+            flex-direction: column;
+        }
+        .main{
+            flex-direction: column;
+        }
+    }
